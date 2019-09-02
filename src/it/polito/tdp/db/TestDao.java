@@ -6,7 +6,7 @@ public class TestDao {
 
 	public static void main(String[] args) {
 		EventsDao dao = new EventsDao();
-		for(Event e : dao.listAllEvents())
+		for(Event e : dao.listaeventibyanno(2015))
 			System.out.println(e);
 	}
 
